@@ -1,2 +1,2 @@
 # recipe-box-transformers
-A recipe generator for the recipe box dataset using transformers. 
+A recipe generator for the [recipe box dataset](https://eightportions.com/datasets/Recipes/) using the [transformers](https://github.com/huggingface/transformers) library with PyTorch.
