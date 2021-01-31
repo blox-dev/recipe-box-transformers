@@ -90,6 +90,7 @@ trainer = Trainer(
 )
 
 trainer.train()
+trainer.save_model()
 
 model = pipeline('text-generation', model=OUTPUT_PATH, tokenizer=TOKENIZER_NAME)
 model("Chicken soup")
